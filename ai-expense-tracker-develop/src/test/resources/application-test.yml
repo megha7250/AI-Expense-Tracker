@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: et-core
+
+  datasource:
+    url: jdbc:h2:mem:testdb;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH
+    username: sa
+    password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret-key: "this-is-a-very-secure-jwt-secret-key-with-more-than-256-bits-for-testing"
+  expiration-time-access-token: 600
+
