@@ -56,7 +56,7 @@ export default function AccountsPage() {
                       <Icon className="h-5 w-5 opacity-90" />
                       <span className="rounded-full bg-white/20 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide">{a.type}</span>
                     </div>
-                    <p className="mt-4 font-mono-num text-sm tracking-widest opacity-90">\u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022 {a.lastFour}</p>
+                    <p className="mt-4 font-mono-num text-sm tracking-widest opacity-90">•••• •••• •••• {a.lastFour}</p>
                   </div>
                   <CardContent className="p-4">
                     <p className="text-sm font-medium text-ink">{a.bankName}</p>

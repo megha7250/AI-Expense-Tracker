@@ -193,11 +193,11 @@ function SecurityTab() {
           <div className="grid max-w-md gap-4 opacity-60">
             <div className="space-y-1.5">
               <Label>Current password</Label>
-              <Input type="password" disabled placeholder="\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022" />
+              <Input type="password" disabled placeholder="••••••••" />
             </div>
             <div className="space-y-1.5">
               <Label>New password</Label>
-              <Input type="password" disabled placeholder="\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022" />
+              <Input type="password" disabled placeholder="••••••••" />
             </div>
           </div>
           <NotImplemented label="No password-change endpoint in the backend" />

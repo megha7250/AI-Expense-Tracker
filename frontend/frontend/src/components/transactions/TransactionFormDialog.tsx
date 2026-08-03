@@ -165,7 +165,7 @@ export function TransactionFormDialog({ open, onOpenChange, mode, transaction }:
                   <SelectTrigger><SelectValue placeholder="Select account" /></SelectTrigger>
                   <SelectContent>
                     {accounts?.map((a) => (
-                      <SelectItem key={a.id} value={a.id}>{a.bankName} \u2022\u2022{a.lastFour}</SelectItem>
+                      <SelectItem key={a.id} value={a.id}>{a.bankName} ••{a.lastFour}</SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
@@ -185,7 +185,7 @@ export function TransactionFormDialog({ open, onOpenChange, mode, transaction }:
                     <SelectTrigger><SelectValue placeholder="Select destination account" /></SelectTrigger>
                     <SelectContent>
                       {accounts?.map((a) => (
-                        <SelectItem key={a.id} value={a.id}>{a.bankName} \u2022\u2022{a.lastFour}</SelectItem>
+                        <SelectItem key={a.id} value={a.id}>{a.bankName} ••{a.lastFour}</SelectItem>
                       ))}
                     </SelectContent>
                   </Select>

@@ -68,7 +68,7 @@ export default function LoginPage() {
             <Input
               id="password"
               type={showPassword ? 'text' : 'password'}
-              placeholder="\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022"
+              placeholder="••••••••"
               autoComplete="current-password"
               className="pr-10"
               {...register('password')}
